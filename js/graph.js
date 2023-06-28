@@ -17,7 +17,7 @@ function updateGraph() {
     }
 
     // Create ticks and labels
-    for(let i = 0; i <= 1; i += 0.16667) {
+    for(let i = 0; i <= 1.00000; i += 0.16667) {
         createTick(i);
         createLabel(i);
     }
