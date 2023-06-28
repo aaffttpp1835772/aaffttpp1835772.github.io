@@ -52,7 +52,7 @@ function createTick(position) {
 function createLabel(position) {
     const label = document.createElement('div');
     label.classList.add('label');
-    label.textContent = position.toFixed(1);
+    label.textContent = position.toFixed(5);
     label.style.left = (position * 100) + '%';
     document.getElementById('graph').appendChild(label);
 }
